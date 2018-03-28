@@ -1,0 +1,13 @@
+body {
+    background-color: turquoise;
+}
+
+.washout {
+    float: left;
+    width: 50%;
+}
+
+.links {
+    float: right;
+    width: 50%;
+}
