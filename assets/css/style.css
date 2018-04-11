@@ -1,13 +1,43 @@
 body {
     background-color: turquoise;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .washout {
-    float: left;
+    border-radius: 20px;
+    margin: 0 auto;
     width: 50%;
 }
 
+.img2 {
+    text-align: center;
+}
+
+.links > * {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .links {
-    float: right;
-    width: 50%;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .links,
+    .washout {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .links,
+    .washout {
+        width: 100%;
+        border-top: none;
+    }
+}
+
+.links > a > img {
+    max-width: 60px;
 }
